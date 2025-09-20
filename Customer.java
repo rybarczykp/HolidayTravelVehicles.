@@ -4,5 +4,5 @@ public class Customer {
     private String address;
     private String phone;
 
-    private Salesperson salesperson; // 1:1 with the salesperson - customer
+    private Salesperson salesperson; // 1:1 with the salesperson  customer
 }

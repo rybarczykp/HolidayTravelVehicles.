@@ -6,7 +6,7 @@ public class Invoice {
     private int licenseFee;
 
     private Vehicle vehicle; // 0..1 
-    private ArrayListList<TradeInVehicle> tradeInVehicles; // 0..* 
-    private ArrayListList<Customer> customers; // 0..*
-    private ArrayListList<Salesperson> salespersons; // 0..* 
+    private ArrayList<TradeInVehicle> tradeInVehicles; // 0..* 
+    private ArrayList<Customer> customers; // 0..*
+    private ArrayList<Salesperson> salespersons; // 0..* 
 }
